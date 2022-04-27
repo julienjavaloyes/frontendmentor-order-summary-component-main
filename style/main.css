@@ -1,0 +1,128 @@
+body {
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display',sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  padding: 0;
+  border-radius: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.img-hero {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.desc {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  color: #7280a7;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.pricing-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f7ff;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing-box .note-icon {
+  width: 15%;
+}
+
+.pricing-box .pricing-inside-box {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+}
+
+.pricing-box .pricing-inside-box .plan-type {
+  font-weight: bold;
+}
+
+.pricing-box .pricing-inside-box .plan-price {
+  color: #7280a7;
+  font-size: 14px;
+}
+
+.pricing-box .change {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pricing-box a:hover {
+  font-size: 14px;
+  color: #b88be9;
+  text-decoration: none;
+}
+
+.payment-button {
+  background-color: #3829e0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 17px;
+  margin: 7px;
+  width: 250px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 10px 18px #7280a7;
+          box-shadow: 0px 10px 18px #7280a7;
+}
+
+.payment-button:hover {
+  background-color: #b88be9;
+  padding: 10px;
+  margin: 14px;
+}
+
+.cancel {
+  height: 22px;
+  color: #7280a7;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+  font-weight: bold;
+  font-size: 13px;
+}
+/*# sourceMappingURL=main.css.map */
